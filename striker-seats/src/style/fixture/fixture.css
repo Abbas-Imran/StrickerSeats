@@ -1,0 +1,36 @@
+.fixtures {
+    padding: 40px 0;
+}
+.fixture-card {
+    padding: 20px;
+    background: #f1f3f6;
+    border-radius: 16px;
+}
+.fixture-card .fixture-content .teams {
+    margin-bottom: .5rem;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001489;
+}
+.fixture-card .fixture-content .league {
+    margin-bottom: .4rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0033ff;
+}
+.fixture-card .fixture-content .date {
+    margin-bottom: .4rem;
+    font-size: 12px;
+    font-weight: 600;
+    color: #001489;
+}
+.fixture-card .fixture-content .description {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.fixture-card button {
+    background: transparent;
+    border: 5px solid black;
+    padding: 8px 16px;
+    font-weight: 600;
+}

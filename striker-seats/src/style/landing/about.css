@@ -1,0 +1,10 @@
+.default-heading {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.about-us p {
+    font-weight: 500;
+    color: #9a9a9a;
+}

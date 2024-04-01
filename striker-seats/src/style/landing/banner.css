@@ -1,0 +1,79 @@
+.landing.banner {
+  height: 700px;
+  padding: 20px;
+  padding-top: 86px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.landing.banner::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  animation: slideshow 10s infinite;
+  background-size: cover;
+}
+@keyframes slideshow {
+  0% {
+    background-image: url("/assets/landing/banner1.jpg"); /* First image */
+    transform: scale(1);
+  }
+  33.33% {
+    background-image: url("/assets/landing/banner2.jpg"); /* Second image */
+    transform: scale(1.05);
+  }
+  66.66% {
+    background-image: url("/assets/landing/banner3.jpg"); /* Third image */
+    transform: scale(1.1);
+  }
+  100% {
+    background-image: url("/assets/landing/banner1.jpg"); /* First image */
+    transform: scale(1);
+  }
+}
+.landing.banner .description {
+  font-size: 18px;
+  font-weight: 500;
+}
+.landing .main-heading {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 56px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.landing .main-heading span {
+    color: white;
+    position: relative;
+    z-index: 0;
+    padding: 10px;
+    font-style: italic;
+}
+.landing .main-heading span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #c42221;
+    content: "";
+    z-index: -1;
+    -webkit-transform: skew(-15deg, 0);
+    -moz-transform: skew(-15deg, 0);
+    -ms-transform: skew(-15deg, 0);
+    -o-transform: skew(-15deg, 0);
+    transform: skew(-15deg, 0);
+}
+@media (max-width:575px) {
+  .main-heading {
+      font-size: 42px;
+  }
+}

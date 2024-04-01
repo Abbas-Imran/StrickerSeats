@@ -1,0 +1,28 @@
+.footer {
+    background:  url("/src/assets/footer-bg.png"),#101010;
+    padding: 50px 0 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.footer .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.footer .footer-wrapper .logo{
+    margin-bottom: 1rem;
+}
+.footer .copy-right {
+    border-top: 1px solid #88888855;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0;
+}
+.footer .copy-right span {
+    color: red;
+}
